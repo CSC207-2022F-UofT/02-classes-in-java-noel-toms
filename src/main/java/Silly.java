@@ -124,7 +124,7 @@ public class Silly implements Comparable<Silly>{
         y.countStatic();
         x.countStatic();
         x.countStatic();
-        int[] expected_values = {0,1,2,3};
+        int[] expected_values = {0, 1, 2, 3};
 
         System.out.println("The countStatic calls will return " + Arrays.toString(expected_values));
     }
@@ -185,7 +185,6 @@ public class Silly implements Comparable<Silly>{
      *    (Relevant reading: 2.5. Comparing objects)
      *
      * Compares this object with other for order.
-     *
      * Returns a negative integer, zero, or a positive integer as this
      * object is less than, equal to, or greater than the specified object.
      *
